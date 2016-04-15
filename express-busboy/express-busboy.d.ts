@@ -13,3 +13,9 @@ declare namespace Express {
   }
 
 }
+
+declare module "express-busboy" {
+  
+  export function extend();
+  
+}
